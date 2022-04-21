@@ -1,0 +1,59 @@
+:root{
+  font-size: 26px;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+a{
+  color:inherit;
+}
+.header{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 1em;
+background-color: rgb(67, 8, 8);
+color:white;
+}
+
+.logo{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.nav-list{
+ font-size: 40px; 
+}
+
+.nav-list-item{
+  display: inline-block;
+}
+
+.nav-list-item+.nav-list-item{
+  margin-left: 30px;
+}
+
+.button{
+  line-height: 10px;
+  background-color: rgb(65, 20, 20);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  color:white;
+  font-size: 20px;
+}
+
+.button:hover{
+  cursor: pointer;
+  color:brown;
+  background-color: wheat;
+  border-color: white;
+}
+
